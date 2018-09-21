@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zygot</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/aos.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -15,39 +16,51 @@
 
 </head>
 
+
 <body>
 
-	<section id="page1">
+	<section id="intro">
 	
 		<img class="logo1" src="images/zygot-logo.png">
 		
-		 <div class="button_container" id="toggle">
-		 <span class="top"></span>
-		 <span class="middle"></span>
-		 <span class="bottom"></span>
-		 </div>
-		 
-		 <div class="overlay" id="overlay">
-	
-		<nav id="menu">
-			<ul class="menu_list">
-				
-				<li><a href="images/whitepaper.pdf" target="_blank">Whitepaper</a></li>
-				<li><a href="images/lightpaper.pdf" target="_blank">Lightpaper</a></li>
-				<li><a href="#page2">Problem</a></li>
-				<li><a href="#page3">Solution</a></li>
-				<li><a href="#page4">Video</a></li>
-				<li><a href="#page5">Blockchain</a></li>
-				<li><a href="#page6">Roadmap</a></li>
-				<li><a href="#page7">Our Team</a></li>
-				
-			</ul>
-		</nav>
+		 <div id="burger-menu">
+		  <span></span>
 		</div>
+
+			<nav id="menu">
+				  <ul class="menu">
+						
+						<li><a href="#" class="dropdownStart">About Us<span class="arrow">&#9660;</span></a>
+							 <ul class="dropdown">
+								<li><a href="#about">What is Zygot</a></li>
+								<li><a href="#mission">Our Vision, Mission, Goal(s)</a></li>
+								<li><a href="#team">Team</a></li>
+						  	</ul>
+						</li>
+						<li><a href="#lightpaper" class="dropdownStart">Lightpaper<span class="arrow">&#9660;</span></a>
+							<ul class="dropdown">
+								<li><a href="images/lightpaper.pdf" target="_blank">Lightpaper</a></li>
+								<li><a href="images/whitepaper.pdf" target="_blank">Whitepaper</a></li>
+						  	</ul>
+						</li>
+						<li><a href="#problem" >Problem/Solution</a></li>
+						
+						<li><a href="#eos">EOS/Blockchain</a></li>
+						<li><a href="#roadmap">Roadmap</a></li>
+						<li><a href="#token">Token</a></li>
+						<li class="zerp"><a href="#">ZERP</a></li>
+				  </ul>
+				  
+				  <div class="toggle">
+					<span class="span" id="one"></span>
+					<span class="span" id="two"></span>
+				  </div>
+				  
+			</nav>
+		
 		<div class="content_1">
 		
-		
-		<img src="images/zygot_2.png" alt="">
+			<img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-delay="50" src="images/zygot_2.png" alt="">
 	
 		</div>
 		
@@ -92,271 +105,191 @@
 		
 	</section>
 	
-	<section id="page2">
+	<section id="about">
 	
-	
-		<div class="content_5">
+		<div class="about" data-aos="fade-up" data-aos-duration="800">
 		
-			<img src="images/problem.png">
-		
-			<h3>THE PROBLEM</h3>
-			
-			<p class="text_13">The <strong>ERP software</strong> solutions are <strong>essential</strong> need for any company, regardless of what kind of ERP. Research and practice show that with these software solutions the clients and the providers have broad range of <strong>problems and misunderstandings</strong>. When one company acquires an ERP or part of it, in predominant number of cases the implementation stage necessitates specific needs, adjustments or alterations that reflect in the ultimate product. Every time the clients feel <strong>pressured and conditioned</strong> by the provider during each of the implementation or live stages. Also, the impression persists that the solution is <strong>overly-expensive</strong> especially when modifications and alterations are needed, and they need to come from the same provider. The <strong>radical change</strong> of the software is excessively pricey and budgets have already been spent for the existing solution.</p>
-			
-			<span id="text"> <p class="text_13">On the other side, the implementer and the provider have the impression 	that they haven’t been paid enough for all they have done for the user. It is not rare for <strong>incorporation of a mediator</strong> to regulate the mutual obligations and rights between the customer and the provider, which is another component that <strong>increases costs</strong>. The client usually pays lump sum for support which is very irritating because no visible efforts are taking place, while on the other side the implementer/provider consider to be charging too little for support when providing flawless software that necessitates lot of funds. Another big problem is when the customer requires <strong>additional features and/or modifications</strong> and waits for <strong>significant duration which costs a lot of money</strong>. When any of the additional features/modules are finally functional, the circumstances and context have changed significantly, and they are of <strong>no substantial use any more</strong>.</p>
-			</span>
-			
-			<div class="btn-container">
-				<button id="more">Read More</button>
-			</div>
-			
-			</div>
-				
-	</section>
-	
-	<section id="page3">
-		
-		<div class="content_6">
-		
-			<img src="images/solution.png">
-		
-			<h3>THE SOLUTION</h3>
-			
-			<p class="text_14">In order to <strong>reduce the misunderstandings</strong> between the providers/implementers of the ERP software solutions and the clients, a <strong>decentralized system</strong> offers several improvements. The EOS operative system, its decentralisation, its dispersion as well as possibility to use smart contracts, gives remarkable opportunities to overcome the abovementioned burning issues. 
-The ERP software solution will be <strong>Open Source</strong>, which can be <strong>updated and maintained by, on one side multiple independent software teams, multiple independent implementation teams, and on the other side, the clients who are many (many-to-many, not one-to-one)</strong>. 
-In such a <strong>decentralized system</strong> for which the perfect solution is <strong>EOS</strong>, the users will be able to use various implementation teams for the same software solution, also use various teams for software production and various for software updates. If we create a dashboard on which the users will publish their needs as well as state how many tokens will be transferred to the implementer team, the cumulative number of tokens offered from many users with the same needs will be the incentive for the teams to uptake an assignment and fulfill it with best possible quality. That will maintain high level of motivation, quality and user service as well as mechanism for improvement of the ERP on continuous basis.</p>
-
-	<span id="text1"><p class="text_14">When a team considers the number of tokens sufficient for their work, they will be able to complete the task and obtain the tokens, on the first-come-first-served principles. This allows <strong>decentralisation and liberation of the process of acquiring, production and implementation of any software solution</strong>.  
-	The teams that would work on maintenance and improvement of the software based on user needs or its implementation would have to freeze certain number of tokens and will be in position to uptake tasks that are in number maximum 20 times higher than their frozen tokens. 
-	The <strong>smart contract</strong> will allow distribution of the tokens to the team who has completed the task, if and only if it is done properly and with the expected quality. The teams who receive negative references for bad performance will not be able to uptake future tasks or assignments or will be excluded as teams from the decentralised systems. Such a framework, based on <strong>blockchain technology</strong> would allow more <strong>fair</strong> collaboration and position of both providers/implementers and users. 
-		</p></span>
-	
-		<div class="btn-container">
-				<button id="more1">Read More</button>
-		</div>
-
-	</div>	
-		
-	</section>
-	
-	<section id="page4">
-	
-		<h4>Video</h4>
-		<img class="line" src="images/line.png">
+			<h2>What is Zygot?</h2>
 			
 			<div class="video">
-		
-				 <video src="video/zerp.mp4" width="1500" height="900" controls>
-				 </video>
 
-			</div>
-			
-	</section>
-	
-	<section id="page5">
-	
-		<div class="content_14">
-
-				<img src="images/blockchain.png">
-
-				<h3>BLOCKCHAIN – EOS</h3>
-
-					<p>EOS is the <strong>perfect platform</strong> for such a solution, because of many reasons:<br>
-					-	It is <strong>decentralised, distributed and scalable</strong> operative system<br>
-					-	Their tokens allow <strong>ease of use</strong> of the hosted applications<br>
-					-	The <strong>blockchain technology</strong> will be implemented from various aspects:<br>
-					-	Triple entry accounting in the ERP software solution<br>
-					-	First come - first served principle<br>
-					-	Ordering of the requests<br>
-					-	Smart contract as form of implementation in the ERP<br>
-					-	Smart contract as possibility to agree between the users and providers, upon satisfactory completion<br>
-					-	Direct payments with no extra costs and complications
-					</p>
-
-
-			</div>
-			
-	</section>	
-	
-	<section id="page6">
-	
-		<h4>Roadmap</h4>
-		<img class="line" src="images/line.png">
-		
-		<img class="map" src="images/roadmap.png" alt="">
-		
-	</section>
-	
-	<section id="page7">
-	
-	
-		<h4>Creators</h4>
-		<img class="line" src="images/line.png">
-		
-		<div class="content_7">
-		
-			<div class="contain_1">
-		
-				<img class="team1" src="images/goce.png">
-
-				<h5>Gjorgji Mancheski</h5>
-				<h6>CEO & Founder of ZERP</h6>
-
-				<p>PhD, CEO & Founder of Vertex Broadcast Solution, Professor, Dean of the faculty of Economics – Prilep <br> <a href="" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
-
-			</div>
-			
-			<div class="contain_2">
-			
-				<img class="team2" src="images/angela.png">
-
-				<h5>Angela Hristovska</h5>
-				<h6>Co–founder of ZERP</h6>
-				
-				<p>design... <br> <a href="https://www.linkedin.com/in/angelahristovska/" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
-
+				<video src="video/zerp.mp4" controls></video>
 			
 			</div>
 			
+			<div class="zygot">
+				<p>ZERP is a platform for decentralised Open Source Intelligent ERP solution that utilises the advantages of blockchain technology. <strong>Zygot</strong> is the team that designed and facilitates the development of ZERP decentralised platform. And ZERP’s coins are Zygots. ZERP has "lightweight" character, offering accessible and affordable decentralised ERP architecture available for all company sizes - micro, SME, corporate, institutional, … We hope to provide the benefits of ERP systems to users and collaborators with various budgets, profiles, needs. The foundation of ZERP is decentralisation of actors. On one side, the users can benefit from open-source high quality ERP modules that compose a system, and participate in its continuous improvement and maintenance; while the teams of developers are also decentralised and there is no single provider, but numerous teams (compositions) of developers that address and compete through the principles of user requirements satisfaction and upward push of quality. We are introducing a dashboard and ZERP engines for facilitating the collaboration. EOS blockchain’s peer-to-peer networking, distributed validation and smart contracts will represent to build the ZERP platform that is generic enough to cover the entire supply-net of diverse domains and businesses and become the unifying ERP platform of the business ecosystems beyond tomorrow. </p>
+			</div>
+
 		</div>
 		
-			<div class="adv">
+		<div id="mission" class="mission" data-aos="fade-up" data-aos-duration="800">
+			<h2>Our Vision, Mission, Goal(s)</h2>
 			
-				<h4>Advisors</h4>
-				<img class="line" src="images/line.png">
-			
-			</div>
+			<p>Our vision - Zygot is bringing the benefits of tailored software solutions to all companies, regardless of their size, with regards to their needs.</p>
+
+			<p>Our mission - Conceptualize, design, facilitate and sustain an ecosystem and mechanisms for decentralized stakeholder coopetition - with international scope and in diverse domains of software development, application and advancement.</p>
+
+			<p>Our goal(s) with ZERP: to make a blockchain, global, inclusive for all company sizes, domains, industries, ecosystems, affordable, community-improved, collaborative and sustainable ERP modular solution - ZERP.</p>
+		</div>
 		
-		<div class="content_8">
+		<div id="team" data-aos="fade-up" data-aos-duration="800">
 			
-			
-			
-			<div class="contain_3">
-			
-				<img class="team3" src="images/dilip.png">
+				<h2>Team</h2>
 				
-				<h5>Dilip Patel</h5>
-
-				<p>Professor, MSc, PhD, MBCS CITP, Advisor  </p>
-
-				<a href="https://www.linkedin.com" target="_blank"><img class="link_1" src="images/icon8.png"></a>
-
-			
-			</div>
-			
-			
-			<div class="contain_4">
-		
-				<img class="team4" src="images/denko.png">
+				<div class="content_7">
 				
-				<h5>Denko Mancheski</h5>
+					<div class="creator" data-aos="fade-up" data-aos-duration="800">
 
-				<p>An experienced blockchain engineer, Denko brings development advices and best practices into the team. He a lead developer and Co-Founder of Viewly, and was a senior software engineer and project lead in Vertex, an enterprise solution company, Marand, an OpenEHR healthcare provider, and Adel, a blockchain incubator. <br> <a href="https://www.linkedin.com/in/denko-manceski-2648407a/" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
+						<h4>Creators</h4>
 
+						<img class="line" src="images/line.png">
 
-			</div>
-			
-			<div class="contain_5">
-			
-				<img class="team5" src="images/user1.png">
+					</div>
 
-				<h5>LaRae</h5>
-
-				<p>PhD – business development advisor, Assistant Professor </p>
-
-				<a href="" target="_blank"><img src="images/icon8.png"></a>
-			
-			</div>
-			
-			
-			
-			<div class="contain_6">
-			
-				<img class="team6" src="images/igor.png">
 				
-				<h5>Igor Nedelkovski</h5>
+					<div class="contain_1" data-aos="fade-up" data-aos-duration="800">
 
-				<p>Phd – Advisor, Dean</p>
+						<img class="team1" src="images/goce.png">
 
-				<a href="https://www.linkedin.com/in/nedigor/" target="_blank"><img class="link_1" src="images/icon8.png"></a>			
-			
-			</div>
-			
-			<div class="contain_7">
-			
-				<img class="team7" src="images/marko.png">
+						<h5>Gjorgji Mancheski</h5>
+						<h6>CEO & Founder of ZERP</h6>
 
-				<h5>Marko Stojkoski</h5>
+						<p>PhD, CEO & Founder of Vertex Broadcast Solution, Professor, Dean of the faculty of Economics – Prilep <br> <a href="" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
 
-				<p>He has been successfully managing the community for several blockchain startups over the last few years. He also comes from a background in managing operations and sales for retail and online market spaces. <br> <a href="https://www.linkedin.com/in/marko1337/" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
-			
-			</div>
-			
-			
-			<div class="contain_9">
-			
-				<img class="team9" src="images/meri.png">
+					</div>
+
+					<div class="contain_2" data-aos="fade-up" data-aos-duration="800">
+
+						<img class="team2" src="images/angela.png">
+
+						<h5>Angela Hristovska</h5>
+						<h6>Co–founder of ZERP</h6>
+
+						<p>design... <br> <a href="https://www.linkedin.com/in/angelahristovska/" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
+
+
+					</div>
+					
+					<div class="contain_3" data-aos="fade-up" data-aos-duration="800">
+
+						<img class="team3" src="images/user1.png">
+
+						<h5>Silent Partner</h5>
+
+						<p>PhD – business development advisor, Assistant Professor </p>
+
+					</div>
+
+				</div>
+
 				
-				<h5>Meri Boskoska </h5>
 
-				<p>Phd – CMO & Fintech Advisor, Professor <br><a href="" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
-			
-			</div>
-			
-			<div class="contain_10">
+				<div class="content_8" data-aos="fade-up" data-aos-duration="800">
 				
-				<img class="team10" src="images/user1.png">
+					<div class="adv" data-aos="fade-up" data-aos-duration="800">
 
-				<h5>Silent Partner</h5>
+						<h4>Advisors</h4>
+						<img class="line" src="images/line.png">
 
-				<p>PhD – business development advisor, Assistant Professor </p>
+					</div>
 
-				<!--<a href="" target="_blank"><img src="images/icon8.png"></a>-->
 
-			</div>
-			
-			<!--<div class="contain_11">
-			
-				<img class="team11" src="images/vertex.png">
-				
-				<h5>Vertex Broadcast Solution <br> – developing</h5>
+					<div class="contain_4" data-aos="fade-up" data-aos-duration="800">
 
-				<p><a href="http://www.vertex.com.mk" target="_blank">www.vertex.com.mk</a><br> <a href="" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
-			
-			</div>-->
-			
-		</div>	
+						<img class="team4" src="images/dilip.png">
+
+						<h5>Dilip Patel</h5>
+
+						<p>Professor, MSc, PhD, MBCS CITP, Advisor  </p>
+
+						<a href="https://www.linkedin.com" target="_blank"><img class="link_1" src="images/icon8.png"></a>
+
+
+					</div>
+
+
+					<div class="contain_5" data-aos="fade-up" data-aos-duration="800">
+
+						<img class="team5" src="images/denko.png">
+
+						<h5>Denko Mancheski</h5>
+
+						<p>An experienced blockchain engineer, Denko brings development advices and best practices into the team. He a lead developer and Co-Founder of Viewly, and was a senior software engineer and project lead in Vertex, an enterprise solution company, Marand, an OpenEHR healthcare provider, and Adel, a blockchain incubator. <br> <a href="https://www.linkedin.com/in/denko-manceski-2648407a/" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
+
+
+					</div>
+
+					<div class="contain_6" data-aos="fade-up" data-aos-duration="800">
+
+						<img class="team6" src="images/user1.png">
+
+						<h5>LaRae</h5>
+
+						<p>PhD – business development advisor, Assistant Professor </p>
+
+						<a href="" target="_blank"><img src="images/icon8.png"></a>
+
+					</div>
+
+
+
+					<div class="contain_7" data-aos="fade-up" data-aos-duration="800">
+
+						<img class="team7" src="images/igor.png">
+
+						<h5>Igor Nedelkovski</h5>
+
+						<p>Phd – Advisor, Dean</p>
+
+						<a href="https://www.linkedin.com/in/nedigor/" target="_blank"><img class="link_1" src="images/icon8.png"></a>			
+
+					</div>
+
+					<div class="contain_8" data-aos="fade-up" data-aos-duration="800">
+
+						<img class="team8" src="images/marko.png">
+
+						<h5>Marko Stojkoski</h5>
+
+						<p>He has been successfully managing the community for several blockchain startups over the last few years. He also comes from a background in managing operations and sales for retail and online market spaces. <br> <a href="https://www.linkedin.com/in/marko1337/" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
+
+					</div>
+
+
+					<div class="contain_9" data-aos="fade-up" data-aos-duration="800">
+
+						<img class="team9" src="images/meri.png">
+
+						<h5>Meri Boskoska </h5>
+
+						<p>Phd – CMO & Fintech Advisor, Professor <br><a href="" target="_blank"><img class="link_1" src="images/icon8.png"></a></p>
+
+					</div>
+
+
+				</div>
+		</div>
 		
 	</section>
 	
+	<section id="vertex">
 	
-	<section id="page8">
+		<div data-aos="fade-up" data-aos-duration="800">
 	
-		<img class="vertex" src="images/vertex.png"><br>
-		<h4>Developed by Vertex Broadcast Solution</h4>
+			<img class="vertex" src="images/vertex.png"><br>
+			<h4>Developed by Vertex Broadcast Solution</h4>
+
+
+			<p>Our company specialises software solutions development for Macedonian business uses. Our team is consisted of experts with various backgrounds, collaborating towards serving our dynamic customer needs in accurate, timely and flexible manner. We offer off the shelf and customised software. 
+			Our team members are mostly young professionals. Trained well and capable to address your needs with great competence and creativity. 
+			</p>
 		
-		
-		<p>Our company specialises software solutions development for Macedonian business uses. Our team is consisted of experts with various backgrounds, collaborating towards serving our dynamic customer needs in accurate, timely and flexible manner. We offer off the shelf and customised software. 
-Our team members are mostly young professionals. Trained well and capable to address your needs with great competence and creativity. 
-</p>
-		
-		<!--<div class="container_2">
-		
-			<h3>Team</h3>
-			
-			<img class="logo" src="images/aleksandra.png">
-			<img class="logo" src="images/elisaveta.png">
-			<img class="logo" src="images/oliver.png">
-			<img class="logo" src="images/blagojce.png">
-			<img class="logo" src="images/goran.png">
-			<img class="logo" src="images/martina.png">
-			<img class="logo" src="images/rubin.png">
-		
-		</div>-->		
+		</div>		
 		
 		<div class="container_1">
 		
-			<h3>vertex references</h3>
+			<h4>Vertex References</h4>
 			
 			<img class="logo" src="images/inaco.png">
 			<img class="logo" src="images/bmoil.png">
@@ -371,11 +304,167 @@ Our team members are mostly young professionals. Trained well and capable to add
 			
 		</div>
 		
-		<a class="link_4" href="http://www.vertex.com.mk" target="_blank">www.vertex.com.mk</a>
+		<a class="link_4" href="http://www.vertex.com.mk" target="_blank">www.vertex.com.mk</a><br>
 		<img class="line" src="images/line.png">
+	
+	</section>
+	
+	<!--<section id="lightpaper" data-aos="fade-up" data-aos-duration="800">
+	
+		<div class="lightpaper">
+
+			<div class="light">
+				<a href="#"><img src="images/pdf_icon.png" alt="lightpaper"></a>
+				<p>Lightpaper</p>
+			</div>
+
+			<div class="white">
+				<a href="#"><img src="images/pdf_icon.png" alt="whitepaper"></a>
+				<p>Whitepaper</p>
+			</div>
+		</div>
 		
+	</section>-->
+	
+	<section id="problem">
+	
+			<h2>PROBLEM/SOLUTION</h2>
+	
+			<div class="content_5" data-aos="fade-up" data-aos-duration="800">
 		
-		<div id="footer1">
+				<img src="images/problem.png" alt="">
+
+				<h3>PROBLEM(S)</h3>
+				
+				
+
+				<p class="text_13">The <strong>ERP software</strong> solutions are <strong>essential</strong> need for any company, regardless of what kind of ERP. Research and practice show that with these software solutions the clients and the providers have broad range of <strong>problems and misunderstandings</strong>. When one company acquires an ERP or part of it, in predominant number of cases the implementation stage necessitates specific needs, adjustments or alterations that reflect in the ultimate product. Every time the clients feel <strong>pressured and conditioned by the provider</strong> during each of the implementation or live stages. Also, the impression persists that the solution is <strong>overly-expensive</strong> especially when modifications and alterations are needed, and they need to come from the same provider. The <strong>radical change</strong> of the software is excessively pricey and budgets have already been spent for the existing solution.</p>
+			
+				<span id="text"><p class="text_13">On the other side, the implementer and the provider have the impression that they haven’t been paid enough for all they have done for the user. It is not rare for <strong>incorporation of a mediator</strong> to regulate the mutual obligations and rights between the customer and the provider, which is another component that <strong>increases costs</strong>. The client usually pays lump sum for support which is very irritating because no visible efforts are taking place, while on the other side the implementer/provider consider to be charging too little for support when providing flawless software that necessitates lot of funds. Another big problem is when the customer requires <strong>additional features and/or modifications</strong> and waits for <strong>significant duration which costs a lot of money</strong>. When any of the additional features/modules are finally functional, the circumstances and context have changed significantly, and they are of <strong>no substantial use any more</strong>.</p></span>
+				
+				<div class="btn-container">
+					<button id="more">Read More</button>
+				</div>
+				
+			</div>
+			
+			<div class="content_6" data-aos="fade-up" data-aos-duration="800">
+		
+				<img src="images/solution.png" alt="">
+
+				<h3>SOLUTION</h3>
+
+				<p class="text_14">In order to <strong>reduce the misunderstandings</strong> between the providers/implementers of the ERP software solutions and the clients, a <strong>decentralized system</strong> offers several improvements. The EOS operative system, its decentralisation, its dispersion as well as possibility to use smart contracts, gives remarkable opportunities to overcome the abovementioned burning issues. The ERP software solution will be <strong>Open Source</strong>, which can be <strong>updated and maintained by, on one side multiple independent software teams, multiple independent implementation teams, and on the other side, the clients who are many (many-to-many, not one-to-one)</strong>. 
+				In such a <strong>decentralized system</strong> for which the perfect solution is <strong>EOS</strong>, the users will be able to use various implementation teams for the same software solution, also use various teams for software production and various for software updates.</p> <span id="text1"><p class="text_14">If we create a dashboard on which the users will publish their needs as well as state how many tokens will be transferred to the implementer team, the cumulative number of tokens offered from many users with the same needs will be the incentive for the teams to uptake an assignment and fulfill it with best possible quality. That will maintain high level of motivation, quality and user service as well as mechanism for improvement of the ERP on continuous basis. <br> When a team considers the number of tokens sufficient for their work, they will be able to complete the task and obtain the tokens, on the first-come-first-served principles. This allows <strong>decentralisation and liberation of the process of acquiring, production and implementation of any software solution</strong>.  
+				The teams that would work on maintenance and improvement of the software based on user needs or its implementation would have to freeze certain number of tokens and will be in position to uptake tasks that are in number maximum 20 times higher than their frozen tokens. The <strong>smart contract</strong> will allow distribution of the tokens to the team who has completed the task, if and only if it is done properly and with the expected quality. The teams who receive negative references for bad performance will not be able to uptake future tasks or assignments or will be excluded as teams from the decentralised systems. Such a framework, based on <strong>blockchain technology</strong> would allow more <strong>fair</strong> collaboration and position of both providers/implementers and users. 
+				</p></span>
+
+			<div class="btn-container">
+					<button id="more1">Read More</button>
+			</div>
+
+		</div>	
+		
+	</section>
+	
+	<section id="eos">
+	
+		<div class="content_14" data-aos="fade-up" data-aos-duration="800">
+				
+				<h2>EOS/BLOCKCHAIN</h2>
+
+				<img class="blockchain" src="images/blockchain.png">
+
+					<div class="slideshow-container" data-aos="fade-up" data-aos-duration="800">
+
+						<div class="mySlides">
+						  <q>Blockchain cannot replace ERP systems. It is a technology that can be implemented in the ERP software solutions. “ERP vendors are working to integrate the distributed ledger technology as a trackable, immutable record for everything from shipping manifests and supply chains to equipment maintenance and dispute-resolution systems.</q>
+						  <p class="author">Konstantinos Karagiannis, CTO at BT North America</p>
+						</div>
+
+						<div class="mySlides">
+						  <q>Security and trust in the data and their alteration. The current software solutions have a database where any direct intervention can be done - by a developer, admin - sometimes even without management (authority) awareness. This raises problems. Even if the data is encrypted, the developers have access and knowledge of the coding schemes too. The blockchaining of data guarantees that the data is original as from day 1. But the need to make a correction is not exhausted with this. The correction needs to be blockchained too - which confirms the security and the trust. Often times, the ERP users need to have accurate information on the subsequent steps that led to certain data statuses. It can also be easily altered in the current solutions, which breaks the data integrity without traceability in the software. This disturbs the integrity and the data consistency. The blockchain implementation in these processes will mean high degree of security, integrity and trust. By using public blockchain (EOS or alike) these principles are satisfied. If using private blockchain, all of the aforementioned gets to be questionable and there is no use of these claims. In the case of decentralised, dispersed blockchain, such as EOS, we will be able to provide information security, safety, trust, integrity, confidentiality and consistency.</q>
+						  <p class="author">Goce Mancheski</p>
+						</div>
+
+						<div class="mySlides">
+						  <q>This is very real and something we're aggressively excited about! What blockchain does is provide a trust system of record between disparate companies. Blockchain gives you that confidence that you can control your information and grant access only to those you want to grant access to. 
+						It's the freedom of feeling like I'm doing what's in my business' best interest by being able to share whatever I want, whenever I want it, in a way that's immutable, trusted, secure.
+						</q>
+						  <p class="author">Brigid McDermott, vice president of Blockchain Business Development at IBM</p>
+						</div>
+
+						<div class="mySlides">
+						  <q>Smart contracts can provide automated payments both with real (fiat) currency and crypto currency towards the creditors. They enable automated settlement with accounts receivable only in crypto currency. These distinctions will be implemented in the ERP software modules. If any. Of the clients has also ZERP, than the settlement can be carried out through the integrative functions with real (fiat) currency too.
+						</q>
+						  <p class="author">Silent Partner</p>
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">❮</a>
+						<a class="next" onclick="plusSlides(1)">❯</a>
+
+					</div>
+
+
+			</div>
+			
+	</section>	
+	
+	<section id="roadmap" data-aos="fade-up" data-aos-duration="800">
+	
+		<div class="content_3">
+		
+			<h2>ROADMAP</h2>
+
+			<img class="map" src="images/roadmap.png" alt="">
+		
+		</div>
+		
+	</section>
+	
+	<section id="token">
+	
+		<h2>TOKEN</h2>
+		
+			 <div class="tab">
+
+					<ul class="tabs">
+						<li><a href="#">TOKEN UTILITY</a></li>
+						<li><a href="#">TOKEN DISTRIBUTION</a></li>
+						<li><a href="#">ZYGOT MARKETSYNC</a></li>
+					</ul> <!-- / tabs -->
+
+			<div class="tab_content">
+
+				<div class="tabs_item">
+
+					<h4>Token Utility</h4>
+					<p>The zygot token is the core resource that powers the ZERP engine. Its usage will be present in multiple mechanisms throughout the ZERP ecosystem. One modality of usage will work as follows: The users will have to stake certain amount of tokens based on the modules they want to unlock. The tokens will be locked in a smart contract for certain amount of time (e.g. 1 year). If the user decides to unlock the tokens and disable a module, he/she will be ‘penalized’ with certain amount of tokens based on the timeframe of usage. If necessary, the amount of tokens locked for the modules can be voted by the community and recalibrated accordingly. Another modality of use would be: The tokens will fuel the smart contracts that are used as a mechanism for interoperability between different instances of the engine. Examples of these are document exchange between companies, automated contracts between companies (e.g. supplier and consumer), cross-integrations between companies and access management (permissions to federated users and policies) to their databases (extranet). Third modality of use of the tokens is for the general governance throughout the system. The users can vote on variety of properties of the system (module pricing/staking, dispute mechanism, protocol changes, etc..). The tokens will also be used in the ZERP marketplace. Development teams will have to stake a certain amount of tokens in order to be eligible to accept tasks from a certain company (which also uses tokens in order to be able to request/pay a change/addition for their instance).</p>
+				</div> <!-- / tabs_item -->
+
+				<div class="tabs_item">
+
+					<h4>Token Distribution</h4>
+					<p>From the very beginning, Zygot’s vision was to respect certain governing principles. At first, the idea was that those principles are respected internally in the company, and then iteratively expand to the broader community. One of them is transparency. That is why we decided to follow Aragon’s transparency model. As per our Transparency Model, we do quarterly Transparency Reports of our use of funds and about the overall progress of the project. Respecting the above principle, below is the token distribution information:
+					There will be a total of 300.000.000 Zygot tokens. 10% of the tokens are reserved for the early community supporters. Certain requirements/tasks will have to be fulfilled in order for a community member to be eligible to receive the tokens. E.g. vote for exchange listing, join telegram, test the alpha version and give feedback, reddit, etc.. 15% of the tokens will be locked in a transparent manner (smart contract) for the team and will be given in a vested form over 5 years. This decision can be altered by the majority of the token holders in case of transitioning to a DAO form. 60% of the tokens will be sold to private funds/pools as a fundraising mechanism. 15% of the tokens will be held in the company wallet and be used for powering partnerships, advisors, references. Those tokens will also be locked in smart contracts, and the company can only use a certain % per annum (the % can be at least 3% per annum or more (increase as voted by the community)</p>			
+				</div> <!-- / tabs_item -->
+
+				<div class="tabs_item">
+
+					<h4>Zygot Marketsync</h4>
+					<p>Due to the current nature of the crypto ecosystem, it is not really straight forward for new users to acquire tokens. They usually need to go to unfamiliar 3rd party exchanges, verify, set up pins and additional security layers. This creates friction and makes our product onboarding more complicated, while our basic principle is fluent, optimized route. That is why, from the very beginning we will implement a mechanism that would provide a way to acquire tokens directly from our website. This would be done in a transparent way, where our backend will buy tokens on the available exchanges on behalf of the user, according current market prices, with no margin or any alteration whatsoever for acting as a kind of intermediary in the process. Since this would be a completely decentralized/open source solution, we (Zygot LTD) do not require a money transmitting license. Besides the ease of access, this would provide more liquidity of the token on the exchanges. Reports including links and audits will be provided, so everyone can monitor this process. This will by no means affect the price decided by the open market.</p>
+				</div> <!-- / tabs_item -->
+
+			</div> <!-- / tab_content -->
+		</div> <!-- / tab -->
+	
+	<div class="content_4">
+		<img class="token" src="images/token.png" alt="">
+	</div>
+		
+	</section>
+	
+	<div id="footer1">
 		
 			<div class="row">
 			
@@ -384,17 +473,17 @@ Our team members are mostly young professionals. Trained well and capable to add
 			
 					<a class="link_2" href="images/lightpaper.pdf" target="_blank">Lightpaper</a><br>
 				
-					<a class="link_2" href="#page2">Problem</a><br>
+					<a class="link_2" href="#about">About Us</a><br>
 				
-					<a class="link_2" href="#page3">Solution</a><br>
+					<a class="link_2" href="#problem">Problem/Solution</a><br>
 				
-					<a class="link_2" href="#page4">Video</a><br>
+					<a class="link_2" href="#eos">EOS/Blockchain</a><br>
 				
-					<a class="link_2" href="#page5">Blockchain</a><br>
+					<a class="link_2" href="#roadmap">Roadmap</a><br>
 				
-					<a class="link_2" href="#page6">Roadmap</a><br>
-				
-					<a class="link_2" href="#page7">Our team</a><br>
+					<a class="link_2" href="#token">Token</a><br>
+					
+					<a class="link_2" href="#">ZERP</a><br>
 					
 					<a class="link_2" href="#">Blog</a><br>
 					
@@ -402,76 +491,111 @@ Our team members are mostly young professionals. Trained well and capable to add
 					
 					<p>&copy; 2018 Zygot, All Rights Reserved.</p><br>
 					
-					<a class="link_3" href="privacy.html">Privacy Policy and Terms of Use</a> 
-				
+					<a class="link_3" href="privacy.html">Privacy Policy</a> 
 			
 			</div>
 	
 		</div>
-		
-	</section>
 	
-	<a href="#page1" class="go-top"><img src="images/top.png"></a>
+<!--tabs-->	
+
+	<script>
+			$(document).ready(function() { 
+
+			(function ($) { 
+				$('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
+
+				$('.tab ul.tabs li a').click(function (g) { 
+					var tab = $(this).closest('.tab'), 
+						index = $(this).closest('li').index();
+
+					tab.find('ul.tabs > li').removeClass('current');
+					$(this).closest('li').addClass('current');
+
+					tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp();
+					tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
+
+					g.preventDefault();
+				} );
+			})(jQuery);
+
+		});
+	</script>
+
+<!--slider-->
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace("active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+
+<!--read more 1-->
+<script>
+$(document).ready(function() {
+  $("#more").click(function() {
+    var elem = $("#more").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#more").text("Read Less");
+      $("#text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#more").text("Read More");
+      $("#text").slideUp();
+    }
+  });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+  $("#more1").click(function() {
+    var elem = $("#more1").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#more1").text("Read Less");
+      $("#text1").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#more1").text("Read More");
+      $("#text1").slideUp();
+    }
+  });
+});
+</script>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
 <script src="js/index.js"></script>
+<script src="js/aos.js"></script>
+	
+	 <script>
+		AOS.init();
+	 </script>
 
+	
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
