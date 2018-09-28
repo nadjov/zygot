@@ -38,37 +38,14 @@ body::-webkit-scrollbar-thumb
 }
 
 .logo1 {
-	float: left;
 	padding-left:58px;
 	padding-top: 20px;
 }
 
-#menu {
-    padding-top: 10px;
-}
-
-.menu_list {
-	float:right;
-	padding-right: 60px;
-	padding-top: 20px;
-}
-
-.menu_list li {
-	display: inline;
-}
-
-.menu_list li a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 300;
-	padding:20px;
-}
-
 .content_1 {
-	clear: both;
 	margin: auto;
-    width: 50%;
-	margin-top: 200px;
+    width: 60%;
+	margin-top: 100px;
 	text-align: justify;
 }
 
