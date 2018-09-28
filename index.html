@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/aos.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
@@ -23,69 +24,65 @@
 	
 		<img class="logo1" src="images/zygot-logo.png">
 		
-		 <div id="burger-menu">
-		  <span></span>
-		</div>
-
-			<nav id="menu">
-				  <ul class="menu">
-						
-						<li><a href="#" class="dropdownStart">About Us<span class="arrow">&#9660;</span></a>
-							 <ul class="dropdown">
-								<li><a href="#about">What is Zygot</a></li>
-								<li><a href="#mission">Our Vision, Mission, Goal(s)</a></li>
-								<li><a href="#team">Team</a></li>
-						  	</ul>
-						</li>
-						<li><a href="#lightpaper" class="dropdownStart">Lightpaper<span class="arrow">&#9660;</span></a>
-							<ul class="dropdown">
-								<li><a href="images/lightpaper.pdf" target="_blank">Lightpaper</a></li>
-								<li><a href="images/whitepaper.pdf" target="_blank">Whitepaper</a></li>
-						  	</ul>
-						</li>
-						<li><a href="#problem" >Problem/Solution</a></li>
-						
-						<li><a href="#eos">EOS/Blockchain</a></li>
-						<li><a href="#roadmap">Roadmap</a></li>
-						<li><a href="#token">Token</a></li>
-						<li class="zerp"><a href="#">ZERP</a></li>
-				  </ul>
-				  
-				  <div class="toggle">
-					<span class="span" id="one"></span>
-					<span class="span" id="two"></span>
-				  </div>
-				  
-			</nav>
+		<nav>
 		
+		  	<a id="resp-menu" class="responsive-menu" href="#">
+				<div class="container" onclick="myFunction(this)">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
+			</a>
+			
+			   <ul class="menu">
+				   <li><a class="homer" href="#">About Us <i class="fa fa-angle-down"></i></a>
+					   <ul class="sub-menu">
+							<li><a href="#about">What is Zygot</a></li>
+							<li><a href="#mission">Our Vision, Mission, Goal(s)</a></li>
+							<li><a href="#team">Team</a></li> 
+					   </ul>
+				   </li>
+				  <li><a  href="#">Lightpaper <i class="fa fa-angle-down"></i></a>
+					  <ul class="sub-menu">
+							<li><a href="images/lightpaper.pdf" target="_blank">Lightpaper</a></li>
+							<li><a href="images/whitepaper.pdf" target="_blank">Whitepaper</a></li>
+					  </ul>
+				  </li>
+
+				<li><a href="#problem" >Problem/Solution</a></li>
+			  <li><a href="#eos">EOS/Blockchain</a></li>
+				<li><a href="#roadmap">Roadmap</a></li>
+			  <li><a href="#token">Token</a></li>
+			  <li class="zerp"><a href="#">ZERP</a></li>
+			  </ul>
+		</nav>
+	
+			
 		<div class="content_1">
 		
-			<img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-delay="50" src="images/zygot_2.png" alt="">
+			<img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in" src="images/zygot_2.png" alt="">
 	
-		</div>
-		
-		
-	<!-- Begin MailChimp Signup Form -->
-	<div id="mc_embed_signup">
-		<form action="https://mycreativeteam.us10.list-manage.com/subscribe/post?u=7ef7ce6f964cf12e4f96366b9&amp;id=906f8f863d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<div id="mc_embed_signup_scroll">
+		<!-- Begin MailChimp Signup Form -->
+		<div id="mc_embed_signup">
+			<form action="https://mycreativeteam.us10.list-manage.com/subscribe/post?u=7ef7ce6f964cf12e4f96366b9&amp;id=906f8f863d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div id="mc_embed_signup_scroll">
 
-		<div class="mc-field-group">
-			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-mail"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-		</div>
-			<div id="mce-responses" class="clear">
-				<div class="response" id="mce-error-response" style="display:none"></div>
-				<div class="response" id="mce-success-response" style="display:none"></div>
-			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7ef7ce6f964cf12e4f96366b9_906f8f863d" tabindex="-1" value=""></div>
-			<div class="clear"></div>
+			<div class="mc-field-group">
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-mail"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 			</div>
-		</form>
-	</div>
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7ef7ce6f964cf12e4f96366b9_906f8f863d" tabindex="-1" value=""></div>
+				<div class="clear"></div>
+				</div>
+			</form>
+		</div>
 
-<!--End mc_embed_signup-->
+		<!--End mc_embed_signup-->
 		
-		
+		</div>
 		
 		<div id="footer">
 		
@@ -496,6 +493,7 @@
 			</div>
 	
 		</div>
+		
 	
 <!--tabs-->	
 
@@ -587,8 +585,8 @@ $(document).ready(function() {
 });
 </script>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/aos.js"></script>
 	
