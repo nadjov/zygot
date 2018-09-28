@@ -937,6 +937,7 @@ hr {
 	.video {
 		float: none;
 		padding-right: 0;
+		text-align: center;
 	}
 
 	.content_7, .content_8 {
@@ -986,7 +987,7 @@ hr {
 
 @media only screen and  (max-width: 1366px) {
 	.logo1 {
-		padding-left: 110px;
+		padding-left: 90px;
 	}
 	
 	.content_1 img {
