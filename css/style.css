@@ -58,6 +58,7 @@ h4 {
 #intro {
 	background: url(../images/back_1.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
 	top:0;
 	width: 100%;
@@ -557,32 +558,6 @@ h6 {
 	text-align: center;
 }
 
-#lightpaper {
-	clear: both;
-	padding: 20px 0;
-}
-
-#lightpaper p {
-	color:#fff;
-}
-
-.lightpaper {
-	margin-left: auto;
-	width: 60%;
-}
-
-.light {
-	float: left;
-	padding-right: 200px;
-}
-.light p,
-.white p {
-	display: -webkit-inline-box;
-    padding-left: 5px;
-    font-weight: 300;
-}
-
-
 #problem {
 	clear: both;
 	width: 100%;
@@ -733,6 +708,9 @@ q {
 
 #roadmap {
 	background: url(../images/back_3.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 	top:0;
 	width: 100%;
 	height:100vh;
@@ -748,9 +726,10 @@ q {
 	margin-bottom: 100px;
 }
 
-.content_3{
-	width: 60%;
-	margin: 0 auto;
+.map {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #token {
@@ -920,6 +899,34 @@ hr {
 
 }
 
+@media only screen and  (max-width: 1600px){
+	.content_1 {
+		padding-top: 100px;
+	}
+	
+	#mc_embed_signup {
+		margin-top: 70px;
+	}
+	
+	.content_7, .content_8 {
+		width: 80%;
+	}
+	
+	.content_5 {
+		margin-left: 230px;
+	}
+	
+	.content_6 {
+		margin-right: 230px;
+		letter-spacing: -0.1px;
+	}
+	
+	.tab {
+		width: 36%;
+		margin-left: 230px;
+	}
+}
+
 @media only screen and  (max-width: 1440px) {
 	.logo1 {
 		padding-left: 100px;
@@ -967,10 +974,6 @@ hr {
 		float:none;
 		width: 60%;
     	margin: 50px auto 0;
-	}
-	
-	.map{
-		width: 100%;
 	}
 	
 	.tab {
@@ -1066,6 +1069,10 @@ hr {
 	
 	.adv .line {
 		width: 16%;
+	}
+	
+	.map {
+		width: 80%;
 	}
 
 }
@@ -1215,7 +1222,7 @@ hr {
 	}
 	
 	video {
-		width: 300px;
+		width: 280px;
 		height: auto;
 	}
 	
@@ -1287,7 +1294,6 @@ hr {
 	}
 	
 	.content_3 {
-		width: 90%;
 		padding-bottom: 50px;
 	}
 	
@@ -1305,7 +1311,7 @@ hr {
 	
 	.tabs {
 		border: 2px solid #4e4a9e;
-		width: 321px;
+		width: 298px;
 	}
 	
 	.tabs a {
@@ -1313,7 +1319,7 @@ hr {
 	}
 
 	.tabs li {
-		width: 321px;
+		width: 298px;
 	}
 }
 
